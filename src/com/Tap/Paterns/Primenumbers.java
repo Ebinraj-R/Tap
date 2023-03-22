@@ -4,8 +4,8 @@ public class Primenumbers {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int p = sc.nextInt();
-		System.out.println(primenumbers(p));
+		int n = sc.nextInt();
+		System.out.println(primenumbers(n));
 
 	}
 
@@ -16,5 +16,5 @@ public class Primenumbers {
 			}
 		}return true;
 	}
-
+	
 }
