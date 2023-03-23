@@ -12,14 +12,15 @@ public class Commonmultiple {
 	}
 
 	 static void commonmultiple(int n, int a, int b) {
-		int count = 0;
+		int count = 1;
 		for(int i = 1;count<=n;i++)
 		{
 			if(i%a==0 && i%b==0)
 			{
 			System.out.println(i);	
+			count++;
 			}
-			count++;}
+			}
 	}
 
 }

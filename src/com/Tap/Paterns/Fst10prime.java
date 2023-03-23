@@ -1,6 +1,6 @@
 package com.Tap.Paterns;
 import java.util.Scanner;
-public class Printprimenumbers {
+public class Fst10prime {
 	static Boolean primenumbers(int n) {
 		for(int i =2;i<=n/2;i++) {
 			if(n%i==0) {
@@ -9,12 +9,12 @@ public class Printprimenumbers {
 		}return true;
 	}
 	static void printprimenumbers(int n)
-	{  
-		for(int i=2;i<=n;i++) {
+	{   int count =0;
+		for(int i=2;count<=n;i++) {
 		if(primenumbers(i) ==true) 
 		{
 	     System.out.println(i);
-	     }
+	     count++;}
      }
 	}
 	public static void main(String[] args) {
@@ -24,6 +24,4 @@ public class Printprimenumbers {
 
 	}
 	}
-	
-
 	

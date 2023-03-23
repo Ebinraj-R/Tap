@@ -6,9 +6,9 @@ public class LCF
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		lcm(a,b);
+		lcf(a,b);
 }
-     static void lcm(int a ,int b) 
+     static void lcf(int a ,int b) 
      {  int min;
 		if(a>b) {
 			min=b;
