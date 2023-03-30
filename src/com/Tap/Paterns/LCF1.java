@@ -6,9 +6,9 @@ public class LCF1
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		lcm(a,b);
+		lcf(a,b);
 }
-     static void lcm(int a ,int b) 
+     static void lcf(int a ,int b) 
      {  int min;
 		if(a>b) {
 			min=b;
@@ -19,7 +19,8 @@ public class LCF1
 		for(int i=1;i<=min;i++) {
 			if(a%i==0 && b%i==0)
 			{
-			 if(i>2) {
+			 if(i>2) 
+			 {
 				 System.out.println(i);
 				 break;
 			 }
